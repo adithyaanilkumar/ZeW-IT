@@ -1,0 +1,19 @@
+
+body{
+    background-color: lightblue;
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+}
+.menu ul{
+    display: inline-flex;
+    margin: : 10px;
+    color:grey;
+}
+.menu ul li{
+    list-style:none;
+    margin: 20px;
+    cursor: pointer;
+}
