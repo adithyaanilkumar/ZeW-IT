@@ -15,7 +15,7 @@
 [![GitHub forks](https://img.shields.io/github/forks/adithyaanilkumar/ZeW-IT.svg?style=social&label=Fork&maxAge=2592000)](https://github.com/adithyaanilkumar/ZeW-IT)
 [![GitHub stars](https://img.shields.io/github/stars/adithyaanilkumar/ZeW-IT.svg?style=social&label=Star&maxAge=2592000)](https://github.com/adithyaanilkumar/ZeW-IT)
 [![GitHub watchers](https://img.shields.io/github/watchers/adithyaanilkumar/ZeW-IT.svg?style=social&label=Watch&maxAge=2592000)](https://github.com/adithyaanilkumar/ZeW-IT)
-<- 
+
 ## Tech Stack
 - Deep Multiple Instance Learning 
 - 3D ResNets for Object Recognition
