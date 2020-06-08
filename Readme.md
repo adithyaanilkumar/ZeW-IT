@@ -1,5 +1,4 @@
-# ZeW-IT
-[![Tweet](https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Fgithub.com%2Fadithyaanilkumar%2FZeW-IT)](https://twitter.com/intent/tweet?text=Wow:&url=https%3A%2F%2Fgithub.com%2Fadithyaanilkumar%2FZeW-IT)
+# ZeW-IT [![Tweet](https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Fgithub.com%2Fadithyaanilkumar%2FZeW-IT)](https://twitter.com/intent/tweet?text=Wow:&url=https%3A%2F%2Fgithub.com%2Fadithyaanilkumar%2FZeW-IT)
 ### Zero Waste Intergrated Technology
 #### Automated Waste Segregation and Mananagement System 
 
