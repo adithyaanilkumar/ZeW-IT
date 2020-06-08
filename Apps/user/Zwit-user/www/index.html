@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="msapplication-tap-highlight" content="no" />
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width" />
+    <!-- This is a wide open CSP declaration. To lock this down for production, see below. -->
+    <meta http-equiv="Content-Security-Policy" content="default-src * 'unsafe-inline'; script-src *; connect-src *; media-src *" />
+    <!-- Good default declaration:
+    * gap: is required only on iOS (when using UIWebView) and is needed for JS->native communication
+    * https://ssl.gstatic.com is required only on Android and is needed for TalkBack to function properly
+    * Disables use of eval() and inline scripts in order to mitigate risk of XSS vulnerabilities. To change this:
+        * Enable inline JS: add 'unsafe-inline' to default-src
+        * Enable eval(): add 'unsafe-eval' to default-src
+    * Create your own at http://cspisawesome.com
+    -->
+    <!-- <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: 'unsafe-inline' https://ssl.gstatic.com; style-src 'self' 'unsafe-inline'; media-src *" /> -->
+
+    <link rel="stylesheet" type="text/css" href="css/index.css" />
+    <link rel="stylesheet" type="text/css" href="css/materialize.min.css" />
+    <title>ZWIT</title>
+</head>
+
+<body>
+
+    <div class='main'> 
+        
+         <div id="userdetails" class="card transparent z-depth-3 grey darken-3" style="height:40vh; width:85vw; left:7.5vw; top:5vh;">
+            <div class="card-content white-text" >
+              <span class="card-title" id="username"></span>
+              <p style="text-align: left;">Card number: <span id="cardno"></span></p><br/>
+              <p style="text-align: left;">Reward Points:<span id="points"></span></p>
+            </div>
+            <div class="card-action">
+              <a class='waves-effect waves-light btn purple'>Redeem points</a>
+            </div>
+        </div>
+
+        <a id='bin1' class='waves-effect waves-light btn purple' onclick="display()">Prototype Bin</a><br/>
+        <table id='info' class='bordered'>
+            <thead id='thead'>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+        <br/>
+        <div id="map"></div>
+        <div id='buttons'>
+          
+        </div>
+    </div>
+
+    <div class='form'>
+        <form>
+            <div class='input-field'>
+                <input id='name' type='text'/>
+                <label for='name'>Name</label><br/>
+            </div><br/>
+            <div class='input-field'>
+                <textarea id='complaint' class='materialize-textarea'/></textarea>
+                <label for='complaint'>Complaint</label><br/>
+            </div><br/>
+            <a class='waves-effect waves-light btn blue' onclick="submitform()">Submit</a>
+            <a class='waves-effect waves-light btn' onclick="cancelform()">Cancel</a>
+        </form>
+    </div>
+
+    <script type="text/javascript" src="cordova.js"></script>
+    <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCeBm479U1Z6_1B-XRYCvoQWAfxFqG1kE4"></script>
+    <script type="text/javascript">
+        app.initialize();
+    </script>
+</body>
+
+</html>
