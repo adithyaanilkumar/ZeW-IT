@@ -22,7 +22,9 @@ Commit and push
 
     git push origin branch-name
 
-Create a new pull request from your forked repository (Click the New Pull Request button located at the top of your repo)
+Create a new pull request from your forked repository (Click the New Pull Request button located at the top of your repo).
+
+Please provide a detailed description of the changes made in the PR.
 
 Wait for your PR review and merge approval 
 

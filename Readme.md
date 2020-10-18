@@ -23,7 +23,7 @@
 - Arduino 
 - Phonegap
 
-Join our [IRC channel](https://matrix.to/#/!vhqMKrrRfeIUtfIceF:matrix.org?via=matrix.org) to stat updated and to clear your doubts/queries.
+Join our [DISCORD channel](https://discord.gg/FyaASnh) to stay updated and to clear your doubts/queries.
 PRs are highly appreciated!
 
 Read [Guidelines](/CONTRIBUTING.md) for making a PR.
