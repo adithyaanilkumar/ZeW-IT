@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* navbar css starts here  */
+.bg-light{
+    background-color: #ffffff!important;
+}
+
+.nav-item{
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 1.2rem;
+}
+
+.fa-github{
+    color: #24292e;
+    padding: 3px;
+}
+
+/* navbar css ends here*/
+
+/* hero content css starts here  */
+.hero-content{
+    height: 100vh;
+}
+
+.hero-img{
+    border-radius: 1rem;
+    width: 100%;
+    padding: 1rem;
+}
+/* hero content css ends here  */
+
+/* our-mission css starts here */
+.our-mission{
+    height: 100vh;
+    background: linear-gradient(to bottom, #fff, #72bcf9) no-repeat center center;
+    background-size: cover;
+    padding-top: 10vh;
+}
+
+.our-mission .card-1{
+    position: relative;
+    top: 10vh;
+}
+
+.our-mission .card-2{
+    position: relative;
+    top: 20vh;
+}
+
+.our-mission .card-3{
+    position: relative;
+    bottom: 5vh;
+}
+/* our-mission css ends here */
