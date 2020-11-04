@@ -11,18 +11,27 @@
 .nav-item{
     font-family: 'Noto Sans JP', sans-serif;
     font-size: 1.2rem;
+    padding-left: 85px;
 }
 
-.fa-github{
-    color: #24292e;
-    padding: 3px;
+.brand-img{
+    width: 30%;
+    height: 30%;
 }
 
 /* navbar css ends here*/
 
 /* hero content css starts here  */
-.hero-content{
-    height: 100vh;
+#green-leaf-on-hero-content{
+    height: 70vh;
+    z-index: -10;
+    transform: rotate(90deg);
+    position: absolute;
+    top: 20%;
+}
+
+.hero-content .row {
+    z-index: 10;
 }
 
 .hero-img{
@@ -34,24 +43,113 @@
 
 /* our-mission css starts here */
 .our-mission{
-    height: 100vh;
-    background: linear-gradient(to bottom, #fff, #72bcf9) no-repeat center center;
+    height: 120vh;
     background-size: cover;
     padding-top: 10vh;
+    background: linear-gradient(90.16deg, #4E82AA 26.31%, #172941 99.87%);
+    
+}
+
+.our-mission-text{
+    text-align: right;
+    display: block;
+    width: 100%;
+    color: rgb(248, 245, 245);
+    padding-right: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#blue-leaf-in-our-mission{
+    height: 40vh;
+    z-index: -10;
+    position: absolute;
+    top: 100%;
 }
 
 .our-mission .card-1{
     position: relative;
-    top: 10vh;
+    top: -50px;
 }
 
 .our-mission .card-2{
     position: relative;
-    top: 20vh;
+    top: 150px;
 }
 
 .our-mission .card-3{
     position: relative;
-    bottom: 5vh;
+    top: 10px;
 }
 /* our-mission css ends here */
+
+/* locate-nearest-bin css starts here */
+.locate-nearest-bin{
+    padding: 15vh 2vh;
+}
+
+.locate-nearest-bin p{
+    font-size: 20px;
+}
+
+.bullet-point-img{
+    height: 100vh;
+}
+/* locate-nearest-bin css ends here */
+/* abrakadabra css starts here  */
+.abra-kadabra{
+    background-color: #f2f2f2;
+    padding: 15vh 3vh;
+    width: 100%;
+    text-align: center;
+}
+
+.abra-kadabra p{
+    font-size: 20px;
+    justify-content: right!important;
+}
+
+#abraka-dabra-img{
+    height: 50vh;
+    border-radius: 0.75rem;
+}
+
+/* abra-kadabra css ends here  */
+
+/* get-rewarded css starts here  */
+.get-rewarded{
+    margin: 0;
+    padding: 15vh 3vh;
+    text-align: center;
+}
+#get-rewarded-img{
+    height: 70vh;
+}
+/* get-rewarded css ends here  */
+
+/* rectangle2 starts here  */
+.rectangle-2{
+    background: linear-gradient(90deg, #4E82AA 20.83%, #1A2D46 100%);
+    padding: 50px 20px;
+}
+/* rectangle2 ends here  */
+
+/* land-1 css starts here  */
+.land-1{
+    
+}
+
+#land-img{
+    height: 150vh;
+}
+/* land-1 css ends here  */
+
+/* footer css starts here */
+footer{
+    position: absolute;
+    left: 25.84%;
+    right: 54.07%;
+    top: 99.16%;
+    bottom: -2.28%;
+    background: linear-gradient(90deg, #6FA656 20.83%, #576755 56.87%);
+}
+/* footer css ends here */
