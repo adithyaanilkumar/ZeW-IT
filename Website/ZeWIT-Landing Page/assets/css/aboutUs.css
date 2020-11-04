@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* navbar css starts here  */
+.bg-light{
+    background-color: #ffffff!important;
+}
+
+.nav-item{
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 1.2rem;
+    padding-left: 85px;
+}
+
+.brand-img{
+    height: 35px;
+}
+
+/* navbar css ends here*/
+
+/* footer css starts here */
+footer{
+    background: linear-gradient(90deg, #6FA656 20.83%, #576755 56.87%);
+}
+/* footer css ends here */
