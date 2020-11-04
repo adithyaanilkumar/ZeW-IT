@@ -84,7 +84,7 @@
 
 /* locate-nearest-bin css starts here */
 .locate-nearest-bin{
-    padding: 15vh 2vh;
+   
 }
 
 .locate-nearest-bin p{
@@ -98,7 +98,7 @@
 /* abrakadabra css starts here  */
 .abra-kadabra{
     background-color: #f2f2f2;
-    padding: 15vh 3vh;
+    
     width: 100%;
     text-align: center;
 }
@@ -118,7 +118,6 @@
 /* get-rewarded css starts here  */
 .get-rewarded{
     margin: 0;
-    padding: 15vh 3vh;
     text-align: center;
 }
 #get-rewarded-img{
@@ -132,6 +131,11 @@
     padding: 50px 20px;
 }
 /* rectangle2 ends here  */
+
+/*height of step1, step2, step3 and carousal*/
+.rectangle-2, .locate-nearest-bin, .abra-kadabra, .get-rewarded{
+    height: 100vh;
+}
 
 /* land-1 css starts here  */
 .land-1{
