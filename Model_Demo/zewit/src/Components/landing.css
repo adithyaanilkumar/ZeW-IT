@@ -1,0 +1,61 @@
+.landing{
+    width:100vw;
+    height: 100vh;
+    padding: 0%;
+    margin: 0;
+    color: black;
+}
+.img1{
+    position: relative ;
+    left: 35% ;
+    top: 10% ;
+    width: 45%;
+    height: auto;
+    padding: 0;
+    margin: 0;
+}
+.Zew-it{
+    font-size: 7rem;
+    font-weight: 300;
+    line-height: 1.2;
+    position:relative;
+    left: 20%;
+    top:-25%;
+}
+.img2{
+    position: absolute;
+    width: 40%;
+    left: 2%;
+    top: 20%;
+    transform: rotateZ(95deg);
+}
+.RTF{
+    position: absolute;
+    font-size: 2rem;
+    font-weight: 300;
+    line-height: 1.2;
+    color: rgba(0, 0, 0, 0.432);
+    top: 52%;
+    left: 18%;
+}
+@media only screen and (max-width: 600px) {
+
+    .img1{
+        width:80%;
+        position: relative;
+        /* margin: auto; */
+        left: 15%;
+    }
+    .RTF{
+        font-size: 1.5rem;
+        top: 70%;
+        left: 15%;
+        margin-top: 5%;
+    }
+    .img2{
+        top: 60%;
+        left: 15%;
+        width: 80%;
+    }
+
+}

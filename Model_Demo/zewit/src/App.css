@@ -1,0 +1,50 @@
+body {
+  color: white;
+  /* background: black; */
+}
+
+.bin-upload {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  padding: 30px;
+}
+
+input {
+  width: 0.1px;
+  height: 0.1px;
+  opacity: 0;
+  overflow: hidden;
+  position: relative;
+  z-index: -1;
+}
+
+button,
+label,
+ul {
+  width: 300px;
+  box-sizing: border-box;
+  border: solid 1px white;
+  background: black;
+  color: white;
+  font-size: 24px;
+  margin: auto;
+  padding: 10px;
+}
+
+.img {
+  width: 300px;
+  margin-bottom: 25px;
+}
+
+ul {
+  list-style: none;
+  padding: 10px;
+  margin-bottom: 25px;
+}
+
+li:not(:last-child) {
+  padding: 10px;
+  border-bottom: solid 1px;
+}

@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+}
+
+main {
+    margin: 16px;
+}
+
+.navbar {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    width: 100vw;
+    color: black;
+    font-family: Helvetica;
+    font-weight: 300;
+}
+
+.navbar__title img {
+    margin-right: auto;
+    width: 30%;
+}
+
+.navbar__item {
+    /* padding: 16px 16px; */
+    cursor: pointer;
+    float: right;
+    vertical-align: middle;
+    /* margin: 2%; */
+}
+.aaa{
+    margin-left:5%;
+}
+.bbb{
+    margin-top: -2%;
+width: 10%;
+}
+@media only screen and (max-width: 600px) {
+    .bbb{
+        display: none;
+    }
+.navbar__title img {
+    margin: auto;
+    width: 100%;
+}
+}

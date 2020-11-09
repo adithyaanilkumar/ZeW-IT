@@ -1,0 +1,146 @@
+body {
+    color: white;
+    /* background: black; */
+    overflow-x: hidden;
+  }
+  
+  .bin-upload {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    padding: 30px;
+  }
+  
+  input {
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    position: relative;
+    z-index: -1;
+  }
+  
+  button,
+  label,
+  ul {
+    width: 300px;
+    box-sizing: border-box;
+    border: solid 1px white;
+    background: black;
+    color: white;
+    font-size: 24px;
+    margin: auto;
+    padding: 10px;
+    /* margin-top: 10%; */
+
+  }
+  
+  .img {
+      position: absolute;
+      margin-top:-20%;
+    width: 300px;
+    /* margin-bottom: 25px; */
+  }
+  
+  ul {
+    list-style: none;
+    padding: 10px;
+    margin-bottom: 25px;
+  }
+  
+  li:not(:last-child) {
+    padding: 10px;
+    border-bottom: solid 1px;
+  }
+  .pred{
+      height: 100vh;
+      width: 100vw;
+      background: linear-gradient(90.16deg, #4E82AA 26.31%, #172941 99.87%);
+  }
+  .bin-upload{
+      position: relative;
+      left: 25%;
+      top: 60%;
+  }
+  .bin-img{
+      width: 10%;
+      position: absolute;
+      left: 20%;
+      top: 140%;
+      transition: all 2s;
+  }
+  .bin-img2{
+    width: 25%;
+    position: absolute;
+    left: 15%;
+    top: 120%;
+
+}
+.car{
+    width: 100px;
+    height: 100px;
+    margin-left: 5%;
+}
+.Carcel{
+    /* display: flex; */
+    position: relative;
+    width: 80%;
+    text-align: center;
+    margin:auto;
+    top: 70%;
+    z-index: 0;
+}
+.asd {
+    display: flex;
+    justify-content: center;
+}
+@media only screen and (max-width: 600px) {
+    .bin-upload{
+        position: relative;
+        left: 0%;
+        top: 50%;
+    }
+    .bin-img{
+        width: 10%;
+        position: absolute;
+        left:45%;
+        top: 110%;
+        transition: all 2s;
+    }
+    .bin-img2{
+      width: 50%;
+      position: absolute;
+      left: 25%;
+      top: 110%;
+  
+  }
+  button,
+  label,
+  ul {
+    width: 300px;
+    box-sizing: border-box;
+    border: solid 1px white;
+    background: black;
+    color: white;
+    font-size: 24px;
+    margin: auto;
+    padding: 10px;
+    margin-top: 30%;
+
+  }
+  .img {
+    width: 200px;
+}
+.Carcel{
+    top: 50%;
+    left: 0%;
+    
+}
+.car{
+    width: 120%;
+    height: auto;
+    /* height: 50px; */
+    margin-left: 5%;
+}
+}
