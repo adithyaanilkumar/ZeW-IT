@@ -3,9 +3,31 @@
     padding: 0;
 }
 
+body{
+    background: url("../media/AboutUs_bg.png") no-repeat center center fixed;
+    background-size: cover;
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+}
+
+h3{
+    font-family: 'Noto Sans JP', sans-serif;
+}
+@media only screen and (max-width: 767px){
+    h3 {
+     font-size:25px;
+    }
+    p {
+        font-size: 19px;
+    }
+}
 /* navbar css starts here  */
 .bg-light{
     background-color: #ffffff!important;
+}
+
+.navbar{
+    position: static;
 }
 
 .nav-item{
@@ -14,11 +36,38 @@
     padding-left: 85px;
 }
 
+.nav-link{
+    position: relative;
+}
+
+.nav-link:before{
+    content: "";
+    height: 2px;
+    width: 100%;
+    visibility: hidden;
+    transform: scaleX(0);
+    transition: all 0.3s ease-in-out;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: #000;
+}
+
+.nav-link:hover:before{
+    visibility: visible;
+    transform: scaleX(1);
+}
+
 .brand-img{
-    height: 35px;
+    height: 60px;
 }
 
 /* navbar css ends here*/
+
+section{
+    margin: 30px auto;
+    padding: 0px 125px;
+}
 
 /* footer css starts here */
 footer{

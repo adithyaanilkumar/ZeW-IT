@@ -8,6 +8,28 @@
     background-color: #ffffff!important;
 }
 
+.nav-link{
+    position: relative;
+}
+
+.nav-link:before{
+    content: "";
+    height: 2px;
+    width: 100%;
+    visibility: hidden;
+    transform: scaleX(0);
+    transition: all 0.3s ease-in-out;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: #000;
+}
+
+.nav-link:hover:before{
+    visibility: visible;
+    transform: scaleX(1);
+}
+
 .nav-item{
     font-family: 'Noto Sans JP', sans-serif;
     font-size: 1.2rem;
@@ -15,8 +37,7 @@
 }
 
 .brand-img{
-    width: 30%;
-    height: 30%;
+    height: 60px;
 }
 
 /* navbar css ends here*/
@@ -39,6 +60,14 @@
     width: 100%;
     padding: 1rem;
 }
+
+@media only screen and (max-width: 600px) {
+    #green-leaf-on-hero-content {
+      height: 25vh;
+      justify-content: center;
+    }
+}
+
 /* hero content css ends here  */
 
 /* our-mission css starts here */
@@ -47,7 +76,6 @@
     background-size: cover;
     padding-top: 10vh;
     background: linear-gradient(90.16deg, #4E82AA 26.31%, #172941 99.87%);
-    
 }
 
 .our-mission-text{
@@ -80,6 +108,13 @@
     position: relative;
     top: 10px;
 }
+
+@media only screen and (max-width: 600px) {
+    .card{
+        height: 2px;
+    }    
+}
+
 /* our-mission css ends here */
 
 /* locate-nearest-bin css starts here */
@@ -87,18 +122,30 @@
    
 }
 
+.bullet-point{
+    height: 33px;
+    padding-right: 5px;
+}
+
 .locate-nearest-bin p{
     font-size: 20px;
 }
 
-.bullet-point-img{
+.locate_nearest_bin_img{
     height: 100vh;
 }
+
+@media only screen and (max-width: 600px) {
+    .locate_nearest_bin_img {
+      height: 70vh;
+      text-align: center;
+    }
+}
+
 /* locate-nearest-bin css ends here */
 /* abrakadabra css starts here  */
 .abra-kadabra{
     background-color: #f2f2f2;
-    
     width: 100%;
     text-align: center;
 }
@@ -149,11 +196,6 @@
 
 /* footer css starts here */
 footer{
-    position: absolute;
-    left: 25.84%;
-    right: 54.07%;
-    top: 99.16%;
-    bottom: -2.28%;
     background: linear-gradient(90deg, #6FA656 20.83%, #576755 56.87%);
 }
 /* footer css ends here */
