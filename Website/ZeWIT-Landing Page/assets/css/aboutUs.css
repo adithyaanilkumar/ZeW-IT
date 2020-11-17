@@ -15,10 +15,10 @@ h3{
 }
 @media only screen and (max-width: 767px){
     h3 {
-     font-size:25px;
+     font-size:20px;
     }
     p {
-        font-size: 19px;
+        font-size: 15px;
     }
 }
 /* navbar css starts here  */
@@ -27,7 +27,9 @@ h3{
 }
 
 .navbar{
-    position: static;
+    position: absolute;
+    width: 100%;
+    z-index: 1000;
 }
 
 .nav-item{
@@ -65,8 +67,17 @@ h3{
 /* navbar css ends here*/
 
 section{
-    margin: 30px auto;
-    padding: 0px 125px;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin: 0px auto;
+    padding: 135px;
+}
+
+@media only screen and (max-width: 767px){
+    section{
+        padding: 120px 29px;
+    }
 }
 
 /* footer css starts here */

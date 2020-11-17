@@ -4,6 +4,12 @@
 }
 
 /* navbar css starts here  */
+.navbar{
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+
 .bg-light{
     background-color: #ffffff!important;
 }
@@ -43,6 +49,11 @@
 /* navbar css ends here*/
 
 /* hero content css starts here  */
+.hero-content{
+    height: 100vh;
+    padding-top: 100px;
+}
+
 #green-leaf-on-hero-content{
     height: 70vh;
     z-index: -10;
@@ -72,7 +83,7 @@
 
 /* our-mission css starts here */
 .our-mission{
-    height: 120vh;
+    height: 100%;
     background-size: cover;
     padding-top: 10vh;
     background: linear-gradient(90.16deg, #4E82AA 26.31%, #172941 99.87%);
@@ -111,15 +122,24 @@
 
 @media only screen and (max-width: 600px) {
     .card{
-        height: 2px;
-    }    
+        margin-top: 35px;
+        text-align: center;
+    }
+    .card-img-top{
+
+    }
+    .card-body{
+          
+    } 
 }
 
 /* our-mission css ends here */
 
 /* locate-nearest-bin css starts here */
 .locate-nearest-bin{
-   
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .bullet-point{
@@ -148,6 +168,9 @@
     background-color: #f2f2f2;
     width: 100%;
     text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .abra-kadabra p{
@@ -158,6 +181,18 @@
 #abraka-dabra-img{
     height: 50vh;
     border-radius: 0.75rem;
+    width: 100%;
+}
+
+@media only screen and (max-width: 767px) {
+    #abraka-dabra-img {
+      height: 25vh;
+      text-align: center;
+    }
+
+    .abra-kadabra .row{
+        flex-direction: column-reverse;
+    }
 }
 
 /* abra-kadabra css ends here  */
@@ -166,9 +201,22 @@
 .get-rewarded{
     margin: 0;
     text-align: center;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 #get-rewarded-img{
     height: 70vh;
+    width: 100%;
+}
+
+@media only screen and (max-width: 767px) {
+    #get-rewarded-img {
+      height: 25vh;
+      text-align: center;
+    }
+
 }
 /* get-rewarded css ends here  */
 
@@ -186,11 +234,11 @@
 
 /* land-1 css starts here  */
 .land-1{
-    
+    width: 100%;
 }
 
 #land-img{
-    height: 150vh;
+    width: 100%;
 }
 /* land-1 css ends here  */
 
